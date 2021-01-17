@@ -19,9 +19,13 @@ Route::get('/', function () {
 //  Route::get('/',function(){
 //      return view('admin');
 // });
-// Route::get('/leave/changepassword',function(){
-//     return view('changepassword');
-// });
+ Route::get('/leave/changepassword',function(){
+     return view('changepassword');
+ });
+
+ Route::get('/department/create',function(){
+    return view('Department.create');
+});
 
 // Route::get('/department',[DepartmentController::class,'index']);
 // Route::get('/department/create',[DepartmentController::class,'create']);

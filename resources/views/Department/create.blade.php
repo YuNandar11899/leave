@@ -7,7 +7,7 @@
     <title>Add new department</title>
 </head>
 <body>
-<form action="/department" method="post" enctype="multipart/form-data">
+<form action="/department/create" method="post" enctype="multipart/form-data">
     @csrf
     <label for="name">Department Name::</label><br>
     <input type="text" name="name"><p><p>
